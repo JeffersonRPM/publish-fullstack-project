@@ -131,7 +131,7 @@ const Api = axios.create({
 export default Api;
 ```
 
-`Agora é só acessar o link do front-end que a Netlify forneceu e testar, caso a site tenha adição de imagens infelizmente a Vercel não possui suporte para isso após o build (no back-end),caso tenha interesse seria necessario usar algum serviço cloud como a aws, todas as imagens usadas ate o build (do frond-end) serão carregadas normalmente de forma Statica`
+`Agora é só acessar o link do front-end que a Netlify forneceu e testar, caso a site tenha adição de imagens infelizmente a Vercel não possui suporte para isso após o build (no back-end),caso tenha interesse seria necessario usar algum serviço cloud como a Aws, todas as imagens usadas até o build (do frond-end) serão carregadas normalmente de forma Statica`
 
 ## Bônus - Cron Job
 
@@ -142,7 +142,7 @@ https://console.cron-job.org/
 ![image](https://github.com/JeffersonRPM/publish-fullstack-project/assets/48998618/b856769d-6db7-4be1-b2cc-3316a21233da)
 
 
-- No arquivo principal JavaScript do back-end crie um requisição do tipo GET com a rota /clear
+- No arquivo principal JavaScript do back-end crie uma requisição do tipo GET com a rota /clear
 ```
 app.get('/clear', async (req, res) => {
   console.log('Executando a tarefa de limpeza do banco de dados');
